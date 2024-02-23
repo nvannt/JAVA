@@ -11,7 +11,7 @@ public class Slide35 {
         if(a > b)
         min = b;
         System.out.println("So nho nhat trong 2 so " + a + " va " + b + " la " + min);
-    }
     sc.close();
+     }
 }
 
