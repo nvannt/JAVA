@@ -5,7 +5,7 @@ public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     while(sum <= 100) {
         System.out.print("Nhap vao so nguyen: ");
-        n = sc.newInt();
+        n = sc.nextInt();
         sum =sum + n;
         System.out.print("Tong =" +sum);
     }
