@@ -4,11 +4,11 @@ public class PTB2 {
         double a, b, c, x1, x2, delta;
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập a  ");
-        a = scanner.nextDouble();
+        a = sc.nextDouble();
         System.out.print("Nhập b: ");
-        b = scanner.nextDouble();
+        b = sc.nextDouble();
         System.out.print("Nhập c: ");
-        c = scanner.nextDouble();
+        c = sc.nextDouble();
         System.out.println("Phương trinh bac hai co dang: " + a + "x^2 + " + b + "x + " + c + " = 0");
         delta = Math.pow(b, 2) - 4 * a * c;
         if (delta < 0) {
