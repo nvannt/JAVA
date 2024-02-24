@@ -17,5 +17,6 @@ import java.util.Scanner;
             ageGroup = " da gia";
         }        
         System.out.println("Ban " + name + " thuoc nhom " + ageGroup);
+        sc.close();
     }
 }
