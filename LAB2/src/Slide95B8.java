@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Slide95B8 {
 public static void main(String[] args) {
     int n,sum = 0 ,number;
-    float avgr;
+    float avg;
     Scanner sc = new Scanner(System.in);
     System.out.println("Nhap vao cac so nguyen co trong day: ");
     n = sc.nextInt();
@@ -11,8 +11,8 @@ public static void main(String[] args) {
         number = sc.nextInt();
         sum += number;
     }
-    avg = sum /n;
-    System.out.println("Trung binh cong=");
+     avg =(float) sum /n;
+    System.out.println("Trung binh cong=" + avg);
     sc.close();
 }
 }
